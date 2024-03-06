@@ -1,0 +1,85 @@
+ nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgb(3, 85, 116);
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    margin: 0;
+}
+
+li a{
+    text-decoration: none;
+    margin: auto;
+    margin-right: 40px;
+    color: azure;
+    border: 2px solid rgb(3, 85, 116);
+    padding: 20px;
+}
+
+li :hover{
+    border: 2px solid rgb(37, 125, 157);
+    background-color: rgb(37, 125, 157);
+    
+}
+
+
+h1{
+    text-align: center;
+    top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(97, 181, 211);
+}
+
+.myself{
+    float: left;
+    height: 300px;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: justify;
+    border-radius: 50% / 50%;
+    border: 2px solid black;
+}
+
+
+.info{
+    list-style-position: inside;
+}
+
+.natey{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline-style: solid;
+    padding: 10px;
+    top: 200px;
+    background-color: azure;
+    border-radius: 20px;
+    box-shadow: 10px;
+}
+
+.footer{
+    width: 1366px;
+    height: 50px;
+    background-color: rgb(3, 85, 116);
+    /* position: relative; */
+    color: azure;
+    display: flex;
+    align-items: last baseline;
+}
+
+footer p{
+    margin-left: 600px;
+}
